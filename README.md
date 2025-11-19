@@ -81,7 +81,7 @@ The bot simulates typing before sending a response using JavaScript timeouts.
 
 ## 👨‍💻 Author
 
-**Ashika V & Vemapli Hrishita**
+**Ashika V & Vempali Hrishita**
 
 ---
 
