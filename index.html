@@ -41,7 +41,6 @@ body{
 .content{display:grid;grid-template-columns:1fr 380px;gap:16px;padding:18px}
 @media(max-width:980px){ .content{grid-template-columns:1fr} }
 
-/* panels */
 .panel{background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent); border:1px solid rgba(255,255,255,0.03); padding:12px; border-radius:var(--radius); box-shadow:0 8px 28px rgba(0,0,0,0.6); transition: transform .22s ease, box-shadow .22s ease;}
 .panel.tilt:hover{ transform: perspective(800px) rotateX(3deg) rotateY(-3deg) translateY(-6px); box-shadow:0 22px 46px rgba(0,0,0,0.7) }
 
@@ -706,6 +705,7 @@ window.addEventListener('click', ()=> { try { sndReply.play().then(()=>sndReply.
 </script>
 </body>
 </html>
+
 
 
 
