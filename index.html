@@ -77,7 +77,6 @@ body{
 
 .footer{padding:12px 18px;border-top:1px solid rgba(255,255,255,0.02);color:var(--muted)}
 
-/* light mode (toggle) */
 body.light{background:linear-gradient(180deg,#f4f7fb,#e9edf8);color:#0b0f13}
 body.light .panel{background:linear-gradient(180deg, rgba(11,15,19,0.02), transparent)}
 body.light .msg.user{background:#f2fbff;color:#071018}
@@ -88,7 +87,6 @@ body.light .mini{color:#545b5b}
 
 <body>
 <div class="wrap">
-  <!-- NAV -->
   <div class="nav">
     <div class="brand">
       <div class="logo">⟨SB⟩</div>
@@ -106,9 +104,7 @@ body.light .mini{color:#545b5b}
     </div>
   </div>
 
-  <!-- MAIN CONTENT -->
   <div class="content">
-    <!-- LEFT column: Chat + core -->
     <div>
       <div class="panel tilt">
         <div style="display:flex;gap:12px;align-items:center">
@@ -152,7 +148,6 @@ body.light .mini{color:#545b5b}
 
     <!-- RIGHT column: Tools + Visualizers -->
     <div>
-      <!-- Message DFA -->
       <div class="panel tilt">
         <div style="display:flex;justify-content:space-between;align-items:center"><div style="font-weight:700">Message DFA (Detector)</div><div class="mini">Result: <strong id="dfaLabel">—</strong></div></div>
         <div class="mini" style="margin-top:8px">q0 → q1 (keywords) → q2 (links/credentials) → qF (phishy)</div>
@@ -172,7 +167,6 @@ body.light .mini{color:#545b5b}
         </div>
       </div>
 
-      <!-- Training Visualizer -->
       <div class="panel tilt" style="margin-top:12px">
         <div style="display:flex;justify-content:space-between;align-items:center"><div style="font-weight:700">DFA Training Visualizer</div><div class="mini">Interactive TOC demo</div></div>
         <div style="margin-top:8px">
@@ -191,7 +185,6 @@ body.light .mini{color:#545b5b}
         </div>
       </div>
 
-      <!-- Password DFA & Entropy -->
       <div class="panel tilt" style="margin-top:12px">
         <div style="display:flex;justify-content:space-between;align-items:center"><div style="font-weight:700">Password DFA & Entropy</div><div class="mini">Visualizer</div></div>
         <div class="mini" style="margin-top:6px">q0→q1(letter)→q2(+number)→q3(+symbol)→q4(accept if length≥8)</div>
@@ -696,6 +689,7 @@ window.addEventListener('click', ()=> { try { sndReply.play().then(()=>sndReply.
 </script>
 </body>
 </html>
+
 
 
 
