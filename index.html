@@ -44,7 +44,6 @@ body{
 .panel{background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent); border:1px solid rgba(255,255,255,0.03); padding:12px; border-radius:var(--radius); box-shadow:0 8px 28px rgba(0,0,0,0.6); transition: transform .22s ease, box-shadow .22s ease;}
 .panel.tilt:hover{ transform: perspective(800px) rotateX(3deg) rotateY(-3deg) translateY(-6px); box-shadow:0 22px 46px rgba(0,0,0,0.7) }
 
-/* chat */
 .header-row{display:flex;gap:12px;align-items:center}
 .avatar{width:72px;height:72px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#052020,#001018);border:2px solid rgba(54,255,136,0.06);font-weight:900;color:var(--neon)}
 .avatar.glow{box-shadow:0 12px 40px rgba(54,255,136,0.06), 0 0 30px rgba(54,255,136,0.02) inset; transform: scale(1.03)}
@@ -705,6 +704,7 @@ window.addEventListener('click', ()=> { try { sndReply.play().then(()=>sndReply.
 </script>
 </body>
 </html>
+
 
 
 
